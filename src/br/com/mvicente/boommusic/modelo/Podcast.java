@@ -1,4 +1,4 @@
-package br.com.mvicente.boommusic.modulo;
+package br.com.mvicente.boommusic.modelo;
 
 public class Podcast extends Audio{
     private String apresentador;
