@@ -1,4 +1,4 @@
-package br.com.mvicente.boommusic.modulo;
+package br.com.mvicente.boommusic.modelo;
 
 public class Principal {
     public static void main(String[] args) {
@@ -43,5 +43,10 @@ public class Principal {
 
         System.out.println("Numero de reproduções: " + podcast.getNumeroDeReproducoes());
         System.out.println("Numero de curtidas: " + podcast.getNumeroDeCurtidas());
+
+
+        MinhasPreferidas minhasPreferidas = new MinhasPreferidas();
+        minhasPreferidas.inclui(musica);
+        minhasPreferidas.inclui(podcast);
     }
 }
